@@ -1,0 +1,154 @@
+{
+  "uid" : "b06451b33ff27e0c",
+  "name" : "Not auth user cannot open dataset page and auth user callback url dataset",
+  "fullName" : "Basic tests of mainapp: Not auth user cannot open dataset page and auth user callback url dataset",
+  "historyId" : "95fad4bf50cb03089cb54432f5243490",
+  "time" : {
+    "start" : 1630340134483,
+    "stop" : 1630340139902,
+    "duration" : 5419
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: The current url is not as expected. Actual: https://app.proofminder.com/, Expected: https://app.proofminder.com/dataset\n",
+  "statusTrace" : "  File \"/Users/solteszattila/dev/python BDD/venv_bdd_py3_s3/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/solteszattila/dev/python BDD/venv_bdd_py3_s3/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/steps.py\", line 64, in step_impl\n    hpf.assert_current_url(context, url)\n  File \"/Users/solteszattila/dev/python BDD/proofminder/helpers/helperFuncs.py\", line 55, in assert_current_url\n    assert current_url == expected_url, \"The current url is not as expected.\" \\\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: The current url is not as expected. Actual: https://app.proofminder.com/, Expected: https://app.proofminder.com/dataset\n",
+    "statusTrace" : "  File \"/Users/solteszattila/dev/python BDD/venv_bdd_py3_s3/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/solteszattila/dev/python BDD/venv_bdd_py3_s3/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/steps.py\", line 64, in step_impl\n    hpf.assert_current_url(context, url)\n  File \"/Users/solteszattila/dev/python BDD/proofminder/helpers/helperFuncs.py\", line 55, in assert_current_url\n    assert current_url == expected_url, \"The current url is not as expected.\" \\\n",
+    "steps" : [ {
+      "name" : "Given \"dataset\" page",
+      "time" : {
+        "start" : 1630340134484,
+        "stop" : 1630340135556,
+        "duration" : 1072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I am redirected to \"login\" page",
+      "time" : {
+        "start" : 1630340135556,
+        "stop" : 1630340137567,
+        "duration" : 2011
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I enter an email address which is associated to test user in the database",
+      "time" : {
+        "start" : 1630340137567,
+        "stop" : 1630340137633,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And the correct password of the user",
+      "time" : {
+        "start" : 1630340137633,
+        "stop" : 1630340137668,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I click \"submit\" button",
+      "time" : {
+        "start" : 1630340137668,
+        "stop" : 1630340137698,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I am redirected to \"dataset\" page",
+      "time" : {
+        "start" : 1630340137698,
+        "stop" : 1630340139902,
+        "duration" : 2204
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: The current url is not as expected. Actual: https://app.proofminder.com/, Expected: https://app.proofminder.com/dataset\n",
+      "statusTrace" : "  File \"/Users/solteszattila/dev/python BDD/venv_bdd_py3_s3/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/solteszattila/dev/python BDD/venv_bdd_py3_s3/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/steps.py\", line 64, in step_impl\n    hpf.assert_current_url(context, url)\n  File \"/Users/solteszattila/dev/python BDD/proofminder/helpers/helperFuncs.py\", line 55, in assert_current_url\n    assert current_url == expected_url, \"The current url is not as expected.\" \\\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Basic tests of mainapp"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b06451b33ff27e0c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "1285563af89d9e19",
+  "name" : "Open my account page",
+  "time" : {
+    "start" : 1630340124111,
+    "stop" : 1630340126188,
+    "duration" : 2077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bb1057f757512ff",
+  "name" : "Invalid password",
+  "time" : {
+    "start" : 1630340112523,
+    "stop" : 1630340114696,
+    "duration" : 2173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b06451b33ff27e0c",
+  "name" : "Not auth user cannot open dataset page and auth user callback url dataset",
+  "time" : {
+    "start" : 1630340134483,
+    "stop" : 1630340139902,
+    "duration" : 5419
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d44ee26f78940353",
+  "name" : "Redirect to forgot password page",
+  "time" : {
+    "start" : 1630340114697,
+    "stop" : 1630340117441,
+    "duration" : 2744
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9aa709382d352878",
+  "name" : "Back to login page from forgot password page",
+  "time" : {
+    "start" : 1630340117443,
+    "stop" : 1630340120145,
+    "duration" : 2702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26999e6bd61182b3",
+  "name" : "Success login",
+  "time" : {
+    "start" : 1630340106885,
+    "stop" : 1630340110533,
+    "duration" : 3648
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eeec68a3cfefcd92",
+  "name" : "Invalid email address",
+  "time" : {
+    "start" : 1630340110535,
+    "stop" : 1630340112521,
+    "duration" : 1986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1424c8b2bd576b05",
+  "name" : "Logout success",
+  "time" : {
+    "start" : 1630340130468,
+    "stop" : 1630340134482,
+    "duration" : 4014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "248fde3d18f2be0c",
+  "name" : "Open datasets page",
+  "time" : {
+    "start" : 1630340120147,
+    "stop" : 1630340124109,
+    "duration" : 3962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ff40496724d6772",
+  "name" : "Open Profile page",
+  "time" : {
+    "start" : 1630340126189,
+    "stop" : 1630340130467,
+    "duration" : 4278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

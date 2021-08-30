@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: The current url is not as expected. Actual: https://app.proofminder.com/, Expected: https://app.proofminder.com/dataset\n",
+      "children" : [ {
+        "name" : "Not auth user cannot open dataset page and auth user callback url dataset",
+        "uid" : "b06451b33ff27e0c",
+        "parentUid" : "3248bcd1dd8c79d5b2c53842aa32b65f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630340134483,
+          "stop" : 1630340139902,
+          "duration" : 5419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3248bcd1dd8c79d5b2c53842aa32b65f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
